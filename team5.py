@@ -28,8 +28,21 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
 
-    return 'b'
-    
+    numC=0
+    numB=0
+    if my_history and their_history == '':
+        return 'c'
+    else:
+        for i in range(0,len(their_history)):
+            if their_history[i] == 'c':
+                numC+=1
+            if their_history[i] == 'b':
+                numB+=1
+        if numC >= numB:
+            return 'c'
+        else:
+            return 'b'
+
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)
     from this module. Prints error if return value != result.
