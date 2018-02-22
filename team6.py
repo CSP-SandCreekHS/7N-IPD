@@ -9,7 +9,8 @@ import random
 team_name = 'Hungary' # Only 10 chars displayed.
 strategy_name = 'Random chaos'
 strategy_description = 'Weighs the options, then picks something randomly'
-    
+
+  
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
