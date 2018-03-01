@@ -9,7 +9,7 @@
 team_name = 'CatsdaBest' # Only 10 chars displayed.
 strategy_name = 'Collude more than Betray'
 strategy_description = 'Collude 70% of the time and betray 30% of the time, only after the other person betrays'
-    
+
 import random
     
 def move(my_history, their_history, my_score, their_score, result):
