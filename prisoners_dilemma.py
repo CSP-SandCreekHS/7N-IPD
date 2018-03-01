@@ -124,10 +124,10 @@ def play_round(player1, player2, score1, score2, moves1, moves2):
     Returns a 2-tuple with score1 and score2 incremented by this round
     '''
     
-    RELEASE = 0 # (R, "reward" in literature) when both players collude
-    TREAT = 100 # (T, "temptation" in literature) when you betray your partner
-    SEVERE_PUNISHMENT = -500 # (S, "sucker" in literature) when your partner betrays you
-    PUNISHMENT = -250 # (P) when both players betray each other
+    RELEASE = 100 # (R, "reward" in literature) when both players collude
+    TREAT = 250 # (T, "temptation" in literature) when you betray your partner
+    SEVERE_PUNISHMENT = -250 # (S, "sucker" in literature) when your partner betrays you
+    PUNISHMENT = -100 # (P) when both players betray each other
     
     # Keep T > R > P > S to be a Prisoner's Dilemma
     # Keep 2R > T + S to be an Iterative Prisoner's Dilemma
@@ -337,7 +337,7 @@ def make_code_string(modules):
     code = '-'*80 + '\n'
     for index in range(len(modules)):
         players_code_filename = str(modules[index]).split(' ')[1].replace('\'','')
-        directory = os.path.dirname(os.path.abspath(__file__))  
+        directory = os.path.dirname(os.path.abspath('7N-IPD'))  
         filename = os.path.join(directory, players_code_filename)
         players_code_file = open(filename+'.py', 'r')
         code += '-'*80 + '\n'
@@ -349,7 +349,7 @@ def make_code_string(modules):
 def copy_template():
     '''Transfer code in team0.py to team1.py though team14.py
     '''
-    directory = os.path.dirname(os.path.abspath(__file__))  
+    directory = os.path.dirname(os.path.abspath('7N-IPD'))  
     with open(os.path.join(directory, 'team0.py'), 'r') as sourcefile:
         source = sourcefile.readlines()
     for i in range(1, 15):
@@ -369,7 +369,7 @@ def post_to_file(string, filename='tournament.txt', directory=''):
     '''
     # Use the same directory as the python script
     if directory=='':
-        directory = os.path.dirname(os.path.abspath(__file__))  
+        directory = os.path.dirname(os.path.abspath('7N-IPD'))  
     # Name the file tournament.txt
     filename = os.path.join(directory, filename)
     # Create the file for the round-by-round results

@@ -7,13 +7,20 @@
 ####
 
 team_name = 'CatsdaBest' # Only 10 chars displayed.
+
 strategy_name = 'Collude more than Betray'
 strategy_description = 'Collude 70% of the time and betray 30% of the time, only after the other person betrays'
 
 import random
+ 
+def move(my_history, their_history, my_score, their_score):
+    ''' Arguments accepted: my_history, their_history are strings.
+    my_score, their_score are ints.
+
     
-def move(my_history, their_history, my_score, their_score, result):
-    return 'c'
+    Make my move.
+    Returns 'c' or 'b'. 
+    '''
 
     if 'b' in their_history:
         return 'b'

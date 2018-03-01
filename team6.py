@@ -5,11 +5,12 @@
 #     strategy_description: a string
 #     move: A function that returns 'c' or 'b'
 ####
+import random
+team_name = 'Hungary' # Only 10 chars displayed.
+strategy_name = 'Random chaos'
+strategy_description = 'Weighs the options, then picks something randomly'
 
-team_name = 'Team HUNGRY' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
-    
+  
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
@@ -25,8 +26,16 @@ def move(my_history, their_history, my_score, their_score):
     
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
-    
-    return 'c'
+    choice = 'b'
+    if my_score < 100:
+        return 'b'
+    elif my_score > 200 and their_score < 100:
+        return 'c'
+    elif their_history[-3:] is 'bbb':
+        choice = random.choice['b','c','b','c','b','c','b']
+        return choice
+    else:
+        return 'b'
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
@@ -38,7 +47,7 @@ def test_move(my_history, their_history, my_score, their_score, result):
     if real_result == result:
         return True
     else:
-        print("move(" +
+        print("move)(" +
             ", ".join(["'"+my_history+"'", "'"+their_history+"'",
                        str(my_score), str(their_score)])+
             ") returned " + "'" + real_result + "'" +
@@ -53,7 +62,7 @@ if __name__ == '__main__':
               my_score=0,
               their_score=0,
               result='b'):
-         print 'Test passed'
+            print ('Test passed')
      # Test 2: Continue betraying if they collude despite being betrayed.
     test_move(my_history='bbb',
               their_history='ccc', 
