@@ -337,7 +337,7 @@ def make_code_string(modules):
     code = '-'*80 + '\n'
     for index in range(len(modules)):
         players_code_filename = str(modules[index]).split(' ')[1].replace('\'','')
-        directory = os.path.dirname(os.path.abspath(__file__))  
+        directory = os.path.dirname(os.path.abspath('7N-IPD'))  
         filename = os.path.join(directory, players_code_filename)
         players_code_file = open(filename+'.py', 'r')
         code += '-'*80 + '\n'
@@ -349,7 +349,7 @@ def make_code_string(modules):
 def copy_template():
     '''Transfer code in team0.py to team1.py though team14.py
     '''
-    directory = os.path.dirname(os.path.abspath(__file__))  
+    directory = os.path.dirname(os.path.abspath('7N-IPD'))  
     with open(os.path.join(directory, 'team0.py'), 'r') as sourcefile:
         source = sourcefile.readlines()
     for i in range(1, 15):
@@ -369,7 +369,7 @@ def post_to_file(string, filename='tournament.txt', directory=''):
     '''
     # Use the same directory as the python script
     if directory=='':
-        directory = os.path.dirname(os.path.abspath(__file__))  
+        directory = os.path.dirname(os.path.abspath('7N-IPD'))  
     # Name the file tournament.txt
     filename = os.path.join(directory, filename)
     # Create the file for the round-by-round results

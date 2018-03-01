@@ -9,8 +9,8 @@
 #test 1.0
 
 team_name = 'Team Sam and Josiah' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+strategy_name = 'Majority Decide'
+strategy_description = 'Colludes or Betrays depending on what opponent has done more'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
@@ -28,21 +28,29 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
 
-    numC=0
-    numB=0
-    if my_history and their_history == '':
-        return 'c'
+#    numC=0
+#    numB=0
+#    if my_history and their_history == '':
+#        return 'c'
+#    else:
+#        for i in range(0,len(their_history)):
+#            if their_history[i] == 'c':
+#                numC+=1
+#            if their_history[i] == 'b':
+#                numB+=1
+#       if numC >= numB:
+#            return 'c'
+#        else:
+#            return 'b'
+    if my_history == '':
+        return 'b'
+#    elif len(their_history)>=50:   
+#         return 'b'
+    elif len(their_history)<=95:
+        return their_history[-1]
     else:
-        for i in range(0,len(their_history)):
-            if their_history[i] == 'c':
-                numC+=1
-            if their_history[i] == 'b':
-                numB+=1
-        if numC >= numB:
-            return 'c'
-        else:
-            return 'b'
-
+        return'b'
+    
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)
     from this module. Prints error if return value != result.
