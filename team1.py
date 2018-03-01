@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
 ####
 # Each team's file must define four tokens:
 #     team_name: a string
@@ -28,15 +32,25 @@ def move(my_history, their_history, my_score, their_score):
     
     if my_score > 100:
         return 'b'
+<<<<<<< HEAD
     elif their_history[200] == 'bb':
         return 'b'
     elif their_history[350] == 'cb':
+=======
+    elif their_history [200] == 'bb':
+        return 'b'
+    elif their_history [350] == 'cb':
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
         return 'c'
     elif my_score > 450:
         return 'c'
     elif my_score > 600:
         return 'b'
+<<<<<<< HEAD
     elif their_history[700] == 'bbb':
+=======
+    elif their_history [700] == 'bbb':
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
         return 'b'
     elif my_score > 900:
         return 'b'
@@ -44,7 +58,11 @@ def move(my_history, their_history, my_score, their_score):
         return 'c'
     elif my_score < 1000:
         return 'b'
+<<<<<<< HEAD
     elif their_history[1200]== 'ccb':
+=======
+    elif their_history [1200] == 'ccb':
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
         return 'b'
     elif my_score > 1300:
         return 'c' 
@@ -83,5 +101,8 @@ if __name__ == '__main__':
               # the simulation (if working correctly) would have awarded 
               # 300 to me and -750 to them. This test will pass if and only if
               # move('bbb', 'ccc', 0, 0) returns 'b'.
+<<<<<<< HEAD
               my_score=0, 
               their_score=0,result='b')
+=======
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b

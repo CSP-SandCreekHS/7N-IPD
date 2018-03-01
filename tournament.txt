@@ -1,6 +1,7 @@
 --------------------------------------------------------------------------------
 Section 0 - Line up
 --------------------------------------------------------------------------------
+<<<<<<< HEAD
 Player 0 (P0): The name the team gives to itself, The name the team gives to this strategy
         How does this strategy decide?
 Player 1 (P1): Tofu Cracker, winning strategy
@@ -24,10 +25,16 @@ Player 8 (P8): Fish Friends, If our score is greater, betray however if their hi
         How does this strategy decide?
 Player 9 (P9): ace of spades, The name the team gives to this strategy
         How does this strategy decide?
+=======
+Player 0 (P0): CatsdaBest, Collude more than Betray
+        Collude 70% of the time and betray 30% of the time, only after the other
+         person betrays
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
 --------------------------------------------------------------------------------
 Section 1 - Player vs. Player
 --------------------------------------------------------------------------------
 Each column shows pts/round earned against each other player:
+<<<<<<< HEAD
              P0     P1     P2     P3     P4     P5     P6     P7     P8     P9
 vs. P0 :      0      1      1      1      3      0      1      0      1      2
 vs. P1 :   -250      0   -250   -100   -100   -250   -250   -250   -100   -250
@@ -40,11 +47,17 @@ vs. P7 :    -79      2     10     65     71     12     11      0    162     10
 vs. P8 :   -250   -100   -250   -100   -100   -250   -250   -213      0   -250
 vs. P9 :      2      4    100    166    143    100    100    138    250      0
 TOTAL  :   -940   -284   -183    362    343   -229   -159     93    863   -244
+=======
+             P0
+vs. P0 :      0
+TOTAL  :      0
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
 --------------------------------------------------------------------------------
 Section 2 - Leaderboard
 --------------------------------------------------------------------------------
 Average points per round:
 Team name (P#):  Score      with strategy name
+<<<<<<< HEAD
 Fish Frien(P8):         86 points with If our score is greater, betray however 
 Team Sam a(P3):         36 points with Majority Decide                         
 Hungary   (P4):         34 points with Random chaos                            
@@ -204,6 +217,11 @@ if __name__ == '__main__':
               my_score=0, 
               their_score=0,
               result='b')             --------------------------------------------------------------------------------
+=======
+CatsdaBest(P0):          0 points with Collude more than Betray                
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
 team4--------------------------------------------------------------------------------
 ####
 # Each team's file must define four tokens:
@@ -214,6 +232,7 @@ team4---------------------------------------------------------------------------
 ####
 
 team_name = 'CatsdaBest' # Only 10 chars displayed.
+<<<<<<< HEAD
 strategy_name = 'The name the team gives to this strategy'
 strategy_description = 'How does this strategy decide?'
     
@@ -764,6 +783,31 @@ def test_move(my_history, their_history, my_score, their_score, result):
     Returns True or False, dpending on whether result was as expected.
     '''
     real_result = move(my_history, their_history, my_score, their_score)
+=======
+strategy_name = 'Collude more than Betray'
+strategy_description = 'Collude 70% of the time and betray 30% of the time, only after the other person betrays'
+
+import random
+    
+def move(my_history, their_history, my_score, their_score, result):
+    return 'c'
+
+    if 'b' in their_history:
+        return 'b'
+    else:
+        if random.random():
+            return 'b'
+        else:
+            return 'c'
+            
+    if move(my_history='',
+            their_history='',
+            my_score=0,
+            their_score=0,
+            result='c'):
+
+        real_result = move(my_history, their_history, my_score, their_score)
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
     if real_result == result:
         return True
     else:
@@ -773,6 +817,7 @@ def test_move(my_history, their_history, my_score, their_score, result):
             ") returned " + "'" + real_result + "'" +
             " and should have returned '" + result + "'")
         return False
+<<<<<<< HEAD
 
 if __name__ == '__main__':
      
@@ -1700,3 +1745,8 @@ cccccccccccccccccccccccccccccccccccccccccccccccccc
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
 --------------------------------------------------------------------------------
+=======
+            --------------------------------------------------------------------------------
+Section 3 - Game Data for Team CatsdaBest
+--------------------------------------------------------------------------------
+>>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
