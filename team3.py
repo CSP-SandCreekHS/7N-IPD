@@ -5,10 +5,10 @@
 #     strategy_description: a string
 #     move: A function that returns 'c' or 'b'
 ####
-
-team_name = 'Team Tofu Cracker' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+import random 
+team_name = 'Tofu Cracker' # Only 10 chars displayed.
+strategy_name = 'winning strategy'
+strategy_description = 'the algorithms wait for the opponent to do a certain pattern and when the opponent does that pattern, our algorith sends out a certain decided response. The other one sends out a certain pattern once the score of either the opponent or you gets to a certain point.'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
@@ -25,9 +25,14 @@ def move(my_history, their_history, my_score, their_score):
     
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
-    
-    return 'c'
-
+    if their_history == 'bb':
+        return 'b'
+    if their_score >= 500:
+        return 'b'
+    if my_score <= 500:
+        return 'b'
+    if their_history == 'ccb':
+        return 'c'
     
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)
