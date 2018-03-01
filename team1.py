@@ -27,23 +27,28 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
     
-    if my_score > 1:
+    if my_score > 100:
         return 'b'
-    elif their_history [2] is 'bb':
+    elif their_history [200] is 'bb':
         return 'b'
-    elif their_history [8] is 'cb':
+    elif their_history [350] is 'cb':
         return 'c'
-    elif my_score > 10:
+    elif my_score > 450:
         return 'c'
-    elif my_score > 9:
+    elif my_score > 600:
         return 'b'
-    elif their_history [12] is 'bbb':
+    elif their_history [700] is 'bbb':
         return 'b'
-    elif my_score > 12:
+    elif my_score > 900:
         return 'b'
-    elif my_score < 12:
+    elif my_score < 900:
+        return 'c'
+    elif my_score < 1000:
         return 'b'
-    
+    elif their_history [1200] 'ccb'
+        return 'b'
+    elif my_score > 1300
+        return 'c' 'c'
     
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)
@@ -110,20 +115,7 @@ def move(my_history, their_history, my_score, their_score):
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
     
-    if my_score > 1:
-        return 'b'
-    elif their_history [1] is 'bb':
-        return 'b'
-    elif their_history [8] is 'cb':
-        return 'c'
-    elif my_score > 10:
-        return 'c'
-    elif my_score > 9:
-        return 'b'
-    elif their_history [12] is 'bbb':
-        return 'b'
-    elif my_score > 12:
-        return 'b'
+   
     
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)
