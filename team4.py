@@ -23,20 +23,4 @@ def move(my_history, their_history, my_score, their_score, result):
         else:
             return 'c'
             
-    if move(my_history='',
-            their_history='',
-            my_score=0,
-            their_score=0,
-            result='c'):
-
-        real_result = move(my_history, their_history, my_score, their_score)
-    if real_result == result:
-        return True
-    else:
-        print("move(" +
-            ", ".join(["'"+my_history+"'", "'"+their_history+"'",
-                       str(my_score), str(their_score)])+
-            ") returned " + "'" + real_result + "'" +
-            " and should have returned '" + result + "'")
-        return False
-            
+    
