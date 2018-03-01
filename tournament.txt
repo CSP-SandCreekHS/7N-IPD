@@ -1,148 +1,59 @@
 --------------------------------------------------------------------------------
 Section 0 - Line up
 --------------------------------------------------------------------------------
-<<<<<<< HEAD
-Player 0 (P0): The name the team gives to itself, The name the team gives to this strategy
-        How does this strategy decide?
-Player 1 (P1): Tofu Cracker, winning strategy
+Player 0 (P0): Tofu Cracker, winning strategy
         the algorithms wait for the opponent to do a certain pattern and when th
         e opponent does that pattern, our algorith sends out a certain decided r
         esponse. The other one sends out a certain pattern once the score of eit
         her the opponent or you gets to a certain point.
-Player 2 (P2): CatsdaBest, The name the team gives to this strategy
-        How does this strategy decide?
-Player 3 (P3): Team Sam and Josiah, Majority Decide
-        Colludes or Betrays depending on what opponent has done more
-Player 4 (P4): Hungary, Random chaos
-        Weighs the options, then picks something randomly
-Player 5 (P5): The name the team gives to itself, The name the team gives to this strategy
-        How does this strategy decide?
-Player 6 (P6):  BubbleGuppies, The name the team gives to this strategy
-        How does this strategy decide?
-Player 7 (P7): team buttkicker,  alternate strategy
-        the c and b will alternate based off of the history.
-Player 8 (P8): Fish Friends, If our score is greater, betray however if their history is ccc return c
-        How does this strategy decide?
-Player 9 (P9): ace of spades, The name the team gives to this strategy
-        How does this strategy decide?
-=======
-Player 0 (P0): CatsdaBest, Collude more than Betray
+Player 1 (P1): CatsdaBest, Collude more than Betray
         Collude 70% of the time and betray 30% of the time, only after the other
          person betrays
->>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
+Player 2 (P2): Team Sam and Josiah, Majority Decide
+        Colludes or Betrays depending on what opponent has done more
+Player 3 (P3): Hungary, Random chaos
+        Weighs the options, then picks something randomly
+Player 4 (P4): The name the team gives to itself, The name the team gives to this strategy
+        How does this strategy decide?
+Player 5 (P5):  BubbleGuppies, The name the team gives to this strategy
+        How does this strategy decide?
+Player 6 (P6): team buttkicker,  alternate strategy
+        the c and b will alternate based off of the history.
+Player 7 (P7): Fish Friends, If our score is greater, betray however if their history is ccc return c
+        How does this strategy decide?
+Player 8 (P8): ace of spades, The name the team gives to this strategy
+        How does this strategy decide?
 --------------------------------------------------------------------------------
 Section 1 - Player vs. Player
 --------------------------------------------------------------------------------
 Each column shows pts/round earned against each other player:
-<<<<<<< HEAD
-             P0     P1     P2     P3     P4     P5     P6     P7     P8     P9
-vs. P0 :      0      1      1      1      3      0      1      0      1      2
-vs. P1 :   -250      0   -250   -100   -100   -250   -250   -250   -100   -250
-vs. P2 :      1      2      0    140    142    100    100    138    250    100
-vs. P3 :   -118   -100      5      0   -100    -41     29      8   -100    -55
-vs. P4 :   -247   -100      1   -100      0      0      0     -2   -100     -1
-vs. P5 :      0      4    100    160    142      0    100    137    250    100
-vs. P6 :      1      3    100    130    142    100      0    137    250    100
-vs. P7 :    -79      2     10     65     71     12     11      0    162     10
-vs. P8 :   -250   -100   -250   -100   -100   -250   -250   -213      0   -250
-vs. P9 :      2      4    100    166    143    100    100    138    250      0
-TOTAL  :   -940   -284   -183    362    343   -229   -159     93    863   -244
-=======
-             P0
-vs. P0 :      0
-TOTAL  :      0
->>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
+             P0     P1     P2     P3     P4     P5     P6     P7     P8
+vs. P0 :      0   -100   -100   -100   -250   -250   -250   -100   -250
+vs. P1 :   -100      0   -100   -100   -250   -250   -212   -100   -250
+vs. P2 :   -100   -100      0   -100     79    -69     29   -100     -2
+vs. P3 :   -100   -100   -100      0      1      0     -2   -100      0
+vs. P4 :      3    250    108    142      0    100    137    250    100
+vs. P5 :      3    250    172    142    100      0    138    250    100
+vs. P6 :      2    161     58     71     12     10      0    161     11
+vs. P7 :   -100   -100   -100   -100   -250   -250   -212      0   -250
+vs. P8 :      4    250    143    142    100    100    137    250      0
+TOTAL  :   -388    511     81     97   -458   -609   -235    511   -541
 --------------------------------------------------------------------------------
 Section 2 - Leaderboard
 --------------------------------------------------------------------------------
 Average points per round:
 Team name (P#):  Score      with strategy name
-<<<<<<< HEAD
-Fish Frien(P8):         86 points with If our score is greater, betray however 
-Team Sam a(P3):         36 points with Majority Decide                         
-Hungary   (P4):         34 points with Random chaos                            
-team buttk(P7):          9 points with  alternate strategy                     
- BubbleGup(P6):        -16 points with The name the team gives to this strategy
-CatsdaBest(P2):        -19 points with The name the team gives to this strategy
-The name t(P5):        -23 points with The name the team gives to this strategy
-ace of spa(P9):        -25 points with The name the team gives to this strategy
-Tofu Crack(P1):        -29 points with winning strategy                        
-The name t(P0):        -94 points with The name the team gives to this strategy
+CatsdaBest(P1):         56 points with Collude more than Betray                
+Fish Frien(P7):         56 points with If our score is greater, betray however 
+Hungary   (P3):         10 points with Random chaos                            
+Team Sam a(P2):          9 points with Majority Decide                         
+team buttk(P6):        -27 points with  alternate strategy                     
+Tofu Crack(P0):        -44 points with winning strategy                        
+The name t(P4):        -51 points with The name the team gives to this strategy
+ace of spa(P8):        -61 points with The name the team gives to this strategy
+ BubbleGup(P5):        -68 points with The name the team gives to this strategy
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-team2--------------------------------------------------------------------------------
-####
-# Each team's file must define four tokens:
-#     team_name: a string
-#     strategy_name: a string
-#     strategy_description: a string
-#     move: A function that returns 'c' or 'b'
-####
-
-team_name = 'The name the team gives to itself' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
-    
-def move(my_history, their_history, my_score, their_score):
-    ''' Arguments accepted: my_history, their_history are strings.
-    my_score, their_score are ints.
-    
-    Make my move.
-    Returns 'c' or 'b'. 
-    '''
-
-    # my_history: a string with one letter (c or b) per round that has been played with this opponent.
-    # their_history: a string of the same length as history, possibly empty. 
-    # The first round between these two players is my_history[0] and their_history[0].
-    # The most recent round is my_history[-1] and their_history[-1].
-    
-    # Analyze my_history and their_history and/or my_score and their_score.
-    # Decide whether to return 'c' or 'b'.
-    
-    if their_history == "bbc":
-        return 'b' 
-    if their_score <= 250:
-        return 'c'  
-
-    
-def test_move(my_history, their_history, my_score, their_score, result):
-    '''calls move(my_history, their_history, my_score, their_score)
-    from this module. Prints error if return value != result.
-    Returns True or False, dpending on whether result was as expected.
-    '''
-    real_result = move(my_history, their_history, my_score, their_score)
-    if real_result == result:
-        return True
-    else:
-        print("move(" +
-            ", ".join(["'"+my_history+"'", "'"+their_history+"'",
-                       str(my_score), str(their_score)])+
-            ") returned " + "'" + real_result + "'" +
-            " and should have returned '" + result + "'")
-        return False
-
-if __name__ == '__main__':
-     
-    # Test 1: Betray on first move.
-    if test_move(my_history='500',
-              their_history='250', 
-              my_score=0,
-              their_score=0,
-              result='b'):
-         print 'Test passed'
-     # Test 2: Continue betraying if they collude despite being betrayed.
-    test_move(my_history='bbb',
-              their_history='ccc', 
-              # Note the scores are for testing move().
-              # The history and scores don't need to match unless
-              # that is relevant to the test of move(). Here,
-              # the simulation (if working correctly) would have awarded 
-              # 300 to me and -750 to them. This test will pass if and only if
-              # move('bbb', 'ccc', 0, 0) returns 'b'.
-              my_score=0, 
-              their_score=0,
-              result='b')
-                  --------------------------------------------------------------------------------
 team3--------------------------------------------------------------------------------
 ####
 # Each team's file must define four tokens:
@@ -217,11 +128,6 @@ if __name__ == '__main__':
               my_score=0, 
               their_score=0,
               result='b')             --------------------------------------------------------------------------------
-=======
-CatsdaBest(P0):          0 points with Collude more than Betray                
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
->>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
 team4--------------------------------------------------------------------------------
 ####
 # Each team's file must define four tokens:
@@ -232,66 +138,31 @@ team4---------------------------------------------------------------------------
 ####
 
 team_name = 'CatsdaBest' # Only 10 chars displayed.
-<<<<<<< HEAD
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
-    
+
+strategy_name = 'Collude more than Betray'
+strategy_description = 'Collude 70% of the time and betray 30% of the time, only after the other person betrays'
+
+import random
+ 
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
+
     
     Make my move.
     Returns 'c' or 'b'. 
     '''
 
-    # my_history: a string with one letter (c or b) per round that has been played with this opponent.
-    # their_history: a string of the same length as history, possibly empty. 
-    # The first round between these two players is my_history[0] and their_history[0].
-    # The most recent round is my_history[-1] and their_history[-1].
-    
-    # Analyze my_history and their_history and/or my_score and their_score.
-    # Decide whether to return 'c' or 'b'.
-    
-    return 'c'
-
-    
-def test_move(my_history, their_history, my_score, their_score, result):
-    '''calls move(my_history, their_history, my_score, their_score)
-    from this module. Prints error if return value != result.
-    Returns True or False, dpending on whether result was as expected.
-    '''
-    real_result = move(my_history, their_history, my_score, their_score)
-    if real_result == result:
-        return True
+    if 'b' in their_history:
+        return 'b'
     else:
-        print("move(" +
-            ", ".join(["'"+my_history+"'", "'"+their_history+"'",
-                       str(my_score), str(their_score)])+
-            ") returned " + "'" + real_result + "'" +
-            " and should have returned '" + result + "'")
-        return False
-
-if __name__ == '__main__':
-     
-    # Test 1: Betray on first move.
-    if test_move(my_history='',
-              their_history='', 
-              my_score=0,
-              their_score=0,
-              result='b'):
-         print 'Test passed'
-     # Test 2: Continue betraying if they collude despite being betrayed.
-    test_move(my_history='bbb',
-              their_history='ccc', 
-              # Note the scores are for testing move().
-              # The history and scores don't need to match unless
-              # that is relevant to the test of move(). Here,
-              # the simulation (if working correctly) would have awarded 
-              # 300 to me and -750 to them. This test will pass if and only if
-              # move('bbb', 'ccc', 0, 0) returns 'b'.
-              my_score=0, 
-              their_score=0,
-              result='b')             --------------------------------------------------------------------------------
+        if random.random():
+            return 'b'
+        else:
+            return 'c'
+            
+    
+--------------------------------------------------------------------------------
 team5--------------------------------------------------------------------------------
 ####
 # Each team's file must define four tokens:
@@ -783,31 +654,6 @@ def test_move(my_history, their_history, my_score, their_score, result):
     Returns True or False, dpending on whether result was as expected.
     '''
     real_result = move(my_history, their_history, my_score, their_score)
-=======
-strategy_name = 'Collude more than Betray'
-strategy_description = 'Collude 70% of the time and betray 30% of the time, only after the other person betrays'
-
-import random
-    
-def move(my_history, their_history, my_score, their_score, result):
-    return 'c'
-
-    if 'b' in their_history:
-        return 'b'
-    else:
-        if random.random():
-            return 'b'
-        else:
-            return 'c'
-            
-    if move(my_history='',
-            their_history='',
-            my_score=0,
-            their_score=0,
-            result='c'):
-
-        real_result = move(my_history, their_history, my_score, their_score)
->>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
     if real_result == result:
         return True
     else:
@@ -817,7 +663,6 @@ def move(my_history, their_history, my_score, their_score, result):
             ") returned " + "'" + real_result + "'" +
             " and should have returned '" + result + "'")
         return False
-<<<<<<< HEAD
 
 if __name__ == '__main__':
      
@@ -840,913 +685,743 @@ if __name__ == '__main__':
               my_score=0, 
               their_score=0,
               result='b')             --------------------------------------------------------------------------------
-Section 3 - Game Data for Team The name the team gives to itself
---------------------------------------------------------------------------------
--250 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-1 pt/round: Tofu Cracker(P1) "winning strategy"
-cc c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
-BBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
-
- c c c c c c c c c c c c c c c c c c c c c c c 
-bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
-
---------------------------------------------------------------------------------
-1 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-1 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-CCC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC
-CCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-
- CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CC
-cCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCC
-
-C CC CCC CC CCC CC CCC CC CCC C
-CcCCcCCCcCCcCCCcCCcCCCcCCcCCCcC
-
---------------------------------------------------------------------------------
--118 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-1 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-cC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC 
-BCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc
-
-cCCCCC cCCCCC cCcc c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
- CCCCCc CCCCCc CBBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
-
- c c c c c c c c 
-bBbBbBbBbBbBbBbBb
-
---------------------------------------------------------------------------------
--247 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-3 pt/round: Hungary(P4) "Random chaos"
-cC c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
-BCcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
-
- c c c c c c c c c c c c c c c c c c
-cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
-
---------------------------------------------------------------------------------
-0 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-0 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-CCC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC
-CCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-
- CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CC
-cCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCC
-
-C CC CCC CC C
-CcCCcCCCcCCcC
-
---------------------------------------------------------------------------------
-1 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-1 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-CCC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC
-CCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-
- CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC C
-cCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
-
---------------------------------------------------------------------------------
--79 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-0 pt/round: team buttkicker(P7) " alternate strategy"
-cC Cc C c CCc C c CC CCC CC c CCc C c CC CCC CC c CCc C c CC CCC CC c CCc C c CC
-BCcCBcCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCC
-
- CCC CC c CCc C c CC CCC CC c CCc C c CC CCC CC c CCc C c CC CCC 
-bCCCbCCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCCbCCCb
-
---------------------------------------------------------------------------------
--250 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-1 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
-cc c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
-BBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
-
- c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
-bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
-
- c c c c c c c c c c c c c c c c c 
-bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
-
---------------------------------------------------------------------------------
-2 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-2 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-CCC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC
-CCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-
- CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC
-cCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCC
-
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
 Section 3 - Game Data for Team Tofu Cracker
 --------------------------------------------------------------------------------
-1 pt/round: Tofu Cracker(P1) "winning strategy"
--250 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-BBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
-cc c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
+-100 pt/round: Tofu Cracker(P0) "winning strategy"
+-100 pt/round: CatsdaBest(P1) "Collude more than Betray"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
- c c c c c c c c c c c c c c c c c c c c c c c 
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-2 pt/round: Tofu Cracker(P1) "winning strategy"
--250 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
+-100 pt/round: Tofu Cracker(P0) "winning strategy"
+-100 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-100 pt/round: Tofu Cracker(P0) "winning strategy"
+-100 pt/round: Hungary(P3) "Random chaos"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+3 pt/round: Tofu Cracker(P0) "winning strategy"
+-250 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+B B B B B B B B B B B B B B B B B B B B B B B B B B 
+cccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+3 pt/round: Tofu Cracker(P0) "winning strategy"
+-250 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
 BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+B B B B B B B B B B B B B B B B B B B B
+ccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+2 pt/round: Tofu Cracker(P0) "winning strategy"
+-250 pt/round: team buttkicker(P6) " alternate strategy"
+bBBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+
+ B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+
+--------------------------------------------------------------------------------
+-100 pt/round: Tofu Cracker(P0) "winning strategy"
+-100 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+4 pt/round: Tofu Cracker(P0) "winning strategy"
+-250 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 B B B B B B B B B B B 
 cccccccccccccccccccccc
-
---------------------------------------------------------------------------------
--100 pt/round: Tofu Cracker(P1) "winning strategy"
--100 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbb
-bbbbb
-
---------------------------------------------------------------------------------
--100 pt/round: Tofu Cracker(P1) "winning strategy"
--100 pt/round: Hungary(P4) "Random chaos"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-4 pt/round: Tofu Cracker(P1) "winning strategy"
--250 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-B B B B B B B B B B B B 
-cccccccccccccccccccccccc
-
---------------------------------------------------------------------------------
-3 pt/round: Tofu Cracker(P1) "winning strategy"
--250 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
---------------------------------------------------------------------------------
-2 pt/round: Tofu Cracker(P1) "winning strategy"
--250 pt/round: team buttkicker(P7) " alternate strategy"
-bBBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
-bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
-
- B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccb
-
---------------------------------------------------------------------------------
--100 pt/round: Tofu Cracker(P1) "winning strategy"
--100 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-4 pt/round: Tofu Cracker(P1) "winning strategy"
--250 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-B B B B B B B B B B
-ccccccccccccccccccc
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 Section 3 - Game Data for Team CatsdaBest
 --------------------------------------------------------------------------------
-1 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-1 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-CCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-CCC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC
+-100 pt/round: CatsdaBest(P1) "Collude more than Betray"
+-100 pt/round: Tofu Cracker(P0) "winning strategy"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-cCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCC
- CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CC
-
-CcCCcCCCcCCcCCCcCCcCCCcCCcCCCcC
-C CC CCC CC CCC CC CCC CC CCC C
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
--250 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-2 pt/round: Tofu Cracker(P1) "winning strategy"
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
+-100 pt/round: CatsdaBest(P1) "Collude more than Betray"
+-100 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-
-cccccccccccccccccccccc
-B B B B B B B B B B B 
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-5 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-140 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+-100 pt/round: CatsdaBest(P1) "Collude more than Betray"
+-100 pt/round: Hungary(P3) "Random chaos"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-CCCCCCCCCCCCCCCCcccccccccccccccccccccccccccccccccc
-CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
---------------------------------------------------------------------------------
-1 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-142 pt/round: Hungary(P4) "Random chaos"
-cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
-BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
-
-CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCC
-CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCC
+bbbbbbbb
+bbbbbbbb
 
 --------------------------------------------------------------------------------
-100 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-100 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-100 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-100 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-10 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-138 pt/round: team buttkicker(P7) " alternate strategy"
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-
-cCCCcCCCcCCCcCCCcCCCcCCCcC
-BCCCBCCCBCCCBCCCBCCCBCCCBC
-
---------------------------------------------------------------------------------
--250 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-250 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+250 pt/round: CatsdaBest(P1) "Collude more than Betray"
+-250 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 --------------------------------------------------------------------------------
-100 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-100 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+250 pt/round: CatsdaBest(P1) "Collude more than Betray"
+-250 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+161 pt/round: CatsdaBest(P1) "Collude more than Betray"
+-212 pt/round: team buttkicker(P6) " alternate strategy"
+bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+
+bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+
+bBBBbBBBbBBBbBBBbBBBbBBBb
+bcccbcccbcccbcccbcccbcccb
+
+--------------------------------------------------------------------------------
+-100 pt/round: CatsdaBest(P1) "Collude more than Betray"
+-100 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+250 pt/round: CatsdaBest(P1) "Collude more than Betray"
+-250 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BB
+cc
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 Section 3 - Game Data for Team Team Sam and Josiah
 --------------------------------------------------------------------------------
-1 pt/round: Team Sam and Josiah(P3) "Majority Decide"
--118 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-BCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc CCCCCc
-cC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC cCCCCC 
+-100 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+-100 pt/round: Tofu Cracker(P0) "winning strategy"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
- CCCCCc CCCCCc CBBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
-cCCCCC cCCCCC cCcc c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-bBbBbBbBbBbBbBbBb
- c c c c c c c c 
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
--100 pt/round: Team Sam and Josiah(P3) "Majority Decide"
--100 pt/round: Tofu Cracker(P1) "winning strategy"
+-100 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+-100 pt/round: CatsdaBest(P1) "Collude more than Betray"
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbb
-bbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-140 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-5 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
+-100 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+-100 pt/round: Hungary(P3) "Random chaos"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+108 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+79 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
 BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-CCCCCCCCCCCCCCCCcccccccccccccccccccccccccccccccccc
+CCCCCCCCCCCCCCCCBBBBB
+CCCCCCCCCCCCCCCCccccc
 
 --------------------------------------------------------------------------------
--100 pt/round: Team Sam and Josiah(P3) "Majority Decide"
--100 pt/round: Hungary(P4) "Random chaos"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-160 pt/round: Team Sam and Josiah(P3) "Majority Decide"
--41 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-CCCCCCCCCCCCCCCCccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
---------------------------------------------------------------------------------
-130 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-29 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBB
-CCCCCCCCCCCCCCCCccccccccccccccccccccccc
-
---------------------------------------------------------------------------------
-65 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-8 pt/round: team buttkicker(P7) " alternate strategy"
-bBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCC
-bcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCC
-
-cBCCcBCCcBCCcBCCbBBBbBBBbBBBbBBBb
-BcCCBcCCBcCCBcCCbcccbcccbcccbcccb
-
---------------------------------------------------------------------------------
--100 pt/round: Team Sam and Josiah(P3) "Majority Decide"
--100 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-166 pt/round: Team Sam and Josiah(P3) "Majority Decide"
--55 pt/round: ace of spades(P9) "The name the team gives to this strategy"
+172 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+-69 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
 BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 CCCCCCCCCCCCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
-BBBBBBBBBB
-cccccccccc
+BBBBBBBBBBBBBBBBBBBBBBB
+ccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+58 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+29 pt/round: team buttkicker(P6) " alternate strategy"
+bBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCC
+bcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCC
+
+cBCCcBCCcBCCcBCCbBBBbBB
+BcCCBcCCBcCCBcCCbcccbcc
+
+--------------------------------------------------------------------------------
+-100 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+-100 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+143 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+-2 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+CCCCCCCCCCCCCCCCcccccccccccccccccccccccccccccccccccccc
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 Section 3 - Game Data for Team Hungary
 --------------------------------------------------------------------------------
-3 pt/round: Hungary(P4) "Random chaos"
--247 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-BCcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
-cC c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
-
-cBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcB
- c c c c c c c c c c c c c c c c c c
-
---------------------------------------------------------------------------------
--100 pt/round: Hungary(P4) "Random chaos"
--100 pt/round: Tofu Cracker(P1) "winning strategy"
+-100 pt/round: Hungary(P3) "Random chaos"
+-100 pt/round: Tofu Cracker(P0) "winning strategy"
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
-142 pt/round: Hungary(P4) "Random chaos"
-1 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
+-100 pt/round: Hungary(P3) "Random chaos"
+-100 pt/round: CatsdaBest(P1) "Collude more than Betray"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbb
+bbbbbbbb
+
+--------------------------------------------------------------------------------
+-100 pt/round: Hungary(P3) "Random chaos"
+-100 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+142 pt/round: Hungary(P3) "Random chaos"
+1 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
 BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
 cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
 
-CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCC
-CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCC
+CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCC
+CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCC
 
 --------------------------------------------------------------------------------
--100 pt/round: Hungary(P4) "Random chaos"
--100 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-142 pt/round: Hungary(P4) "Random chaos"
-0 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
-cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
-
-CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCC
-CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-
---------------------------------------------------------------------------------
-142 pt/round: Hungary(P4) "Random chaos"
-0 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
-cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
-
-CCBCCBCCCBCCBCCCBCCBCCCBCC
-CCcCCcCCCcCCcCCCcCCcCCCcCC
-
---------------------------------------------------------------------------------
-71 pt/round: Hungary(P4) "Random chaos"
--2 pt/round: team buttkicker(P7) " alternate strategy"
-bBBCcCCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCBCcBCC
-bccCBCCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCcCBcCC
-
-bCBCcBCBcBCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCB
-bCcCBcCcBcCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCc
-
---------------------------------------------------------------------------------
--100 pt/round: Hungary(P4) "Random chaos"
--100 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-143 pt/round: Hungary(P4) "Random chaos"
--1 pt/round: ace of spades(P9) "The name the team gives to this strategy"
+142 pt/round: Hungary(P3) "Random chaos"
+0 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
 BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
 cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
 
 CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCB
 CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCc
 
-CCBCCCB
-CCcCCCc
+CCBCCCBCCBCCCBCCBCCCBCCBCCCBCC
+CCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
+
+--------------------------------------------------------------------------------
+71 pt/round: Hungary(P3) "Random chaos"
+-2 pt/round: team buttkicker(P6) " alternate strategy"
+bBBCcCCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCBCcBCC
+bccCBCCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCcCBcCC
+
+bCBCcBCBcBCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCB
+bCcCBcCcBcCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCc
+
+--------------------------------------------------------------------------------
+-100 pt/round: Hungary(P3) "Random chaos"
+-100 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+142 pt/round: Hungary(P3) "Random chaos"
+0 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
+cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
+
+CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCC
+CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 Section 3 - Game Data for Team The name the team gives to itself
 --------------------------------------------------------------------------------
-0 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-0 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-CCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-CCC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC
-
-cCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCC
- CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CC
-
-CcCCcCCCcCCcC
-C CC CCC CC C
-
---------------------------------------------------------------------------------
--250 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-4 pt/round: Tofu Cracker(P1) "winning strategy"
+-250 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+3 pt/round: Tofu Cracker(P0) "winning strategy"
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
 
-cccccccccccccccccccccccc
-B B B B B B B B B B B B 
+cccccccccccccccccccccccccccccccccccccccccccccccccccc
+B B B B B B B B B B B B B B B B B B B B B B B B B B 
 
 --------------------------------------------------------------------------------
-100 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-100 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
--41 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-160 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-
---------------------------------------------------------------------------------
-0 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-142 pt/round: Hungary(P4) "Random chaos"
-cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
-BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
-
-CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCC
-
---------------------------------------------------------------------------------
-100 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-100 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-12 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-137 pt/round: team buttkicker(P7) " alternate strategy"
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-
---------------------------------------------------------------------------------
--250 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-250 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
+-250 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+250 pt/round: CatsdaBest(P1) "Collude more than Betray"
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
-cccccccccccccccccccc
-BBBBBBBBBBBBBBBBBBBB
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
 --------------------------------------------------------------------------------
-100 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-100 pt/round: ace of spades(P9) "The name the team gives to this strategy"
+79 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+108 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCccccc
+CCCCCCCCCCCCCCCCBBBBB
+
+--------------------------------------------------------------------------------
+1 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+142 pt/round: Hungary(P3) "Random chaos"
+cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
+BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
+
+CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCC
+CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCC
+
+--------------------------------------------------------------------------------
+100 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+100 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+12 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+137 pt/round: team buttkicker(P6) " alternate strategy"
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
+
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
+
+--------------------------------------------------------------------------------
+-250 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+250 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+100 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+100 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 Section 3 - Game Data for Team  BubbleGuppies
 --------------------------------------------------------------------------------
-1 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-1 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-CCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-CCC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC
-
-cCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
- CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC C
-
---------------------------------------------------------------------------------
--250 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-3 pt/round: Tofu Cracker(P1) "winning strategy"
+-250 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+3 pt/round: Tofu Cracker(P0) "winning strategy"
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
 
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
 
---------------------------------------------------------------------------------
-100 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-100 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+ccccccccccccccccccccccccccccccccccccccc
+B B B B B B B B B B B B B B B B B B B B
 
 --------------------------------------------------------------------------------
-29 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-130 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCccccccccccccccccccccccc
-CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBB
-
---------------------------------------------------------------------------------
-0 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-142 pt/round: Hungary(P4) "Random chaos"
-cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
-BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
-
-CCcCCcCCCcCCcCCCcCCcCCCcCC
-CCBCCBCCCBCCBCCCBCCBCCCBCC
-
---------------------------------------------------------------------------------
-100 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-100 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-11 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-137 pt/round: team buttkicker(P7) " alternate strategy"
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCC
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCC
-
---------------------------------------------------------------------------------
--250 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-250 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
+-250 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+250 pt/round: CatsdaBest(P1) "Collude more than Betray"
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
-cccccccccccccccccccccccccccccccccccccccccccccc
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
 --------------------------------------------------------------------------------
-100 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-100 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team team buttkicker
---------------------------------------------------------------------------------
-0 pt/round: team buttkicker(P7) " alternate strategy"
--79 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-BCcCBcCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCC
-cC Cc C c CCc C c CC CCC CC c CCc C c CC CCC CC c CCc C c CC CCC CC c CCc C c CC
-
-bCCCbCCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCCbCCCbCCcBcCCBcCcBcCCbCCCb
- CCC CC c CCc C c CC CCC CC c CCc C c CC CCC CC c CCc C c CC CCC 
-
---------------------------------------------------------------------------------
--250 pt/round: team buttkicker(P7) " alternate strategy"
-2 pt/round: Tofu Cracker(P1) "winning strategy"
-bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
-bBBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
-
-bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccb
- B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-
---------------------------------------------------------------------------------
-138 pt/round: team buttkicker(P7) " alternate strategy"
-10 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-
-BCCCBCCCBCCCBCCCBCCCBCCCBC
-cCCCcCCCcCCCcCCCcCCCcCCCcC
-
---------------------------------------------------------------------------------
-8 pt/round: team buttkicker(P7) " alternate strategy"
-65 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-bcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCC
-bBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCC
-
-BcCCBcCCBcCCBcCCbcccbcccbcccbcccb
-cBCCcBCCcBCCcBCCbBBBbBBBbBBBbBBBb
-
---------------------------------------------------------------------------------
--2 pt/round: team buttkicker(P7) " alternate strategy"
-71 pt/round: Hungary(P4) "Random chaos"
-bccCBCCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCcCBcCC
-bBBCcCCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCBCcBCC
-
-bCcCBcCcBcCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCc
-bCBCcBCBcBCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCB
-
---------------------------------------------------------------------------------
-137 pt/round: team buttkicker(P7) " alternate strategy"
-12 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-
---------------------------------------------------------------------------------
-137 pt/round: team buttkicker(P7) " alternate strategy"
-11 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCC
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCC
-
---------------------------------------------------------------------------------
--213 pt/round: team buttkicker(P7) " alternate strategy"
-162 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
-bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
-bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
-
-bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
-bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
-
---------------------------------------------------------------------------------
-138 pt/round: team buttkicker(P7) " alternate strategy"
-10 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-
-BCCCB
-cCCCc
-
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team Fish Friends
---------------------------------------------------------------------------------
-1 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
--250 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-BBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
-cc c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
-
-bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbB
- c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c
-
-bBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBbBb
- c c c c c c c c c c c c c c c c c 
-
---------------------------------------------------------------------------------
--100 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
--100 pt/round: Tofu Cracker(P1) "winning strategy"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-250 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
--250 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
---------------------------------------------------------------------------------
--100 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
--100 pt/round: Team Sam and Josiah(P3) "Majority Decide"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
--100 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
--100 pt/round: Hungary(P4) "Random chaos"
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-
---------------------------------------------------------------------------------
-250 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
--250 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-BBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccc
-
---------------------------------------------------------------------------------
-250 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
--250 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccccccccccccccccccccccccccccc
-
---------------------------------------------------------------------------------
-162 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
--213 pt/round: team buttkicker(P7) " alternate strategy"
-bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
-bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
-
-bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
-bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
-
---------------------------------------------------------------------------------
-250 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
--250 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-cccccccccccccccccccccccccccccccccccccccccccccccccc
-
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Section 3 - Game Data for Team ace of spades
---------------------------------------------------------------------------------
-2 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-2 pt/round: The name the team gives to itself(P0) "The name the team gives to this strategy"
-CCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
-CCC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC
-
-cCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCC
- CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC CC CCC
-
---------------------------------------------------------------------------------
--250 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-4 pt/round: Tofu Cracker(P1) "winning strategy"
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-
-cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
-
-ccccccccccccccccccc
-B B B B B B B B B B
-
---------------------------------------------------------------------------------
-100 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-100 pt/round: CatsdaBest(P2) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
--55 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-166 pt/round: Team Sam and Josiah(P3) "Majority Decide"
+-69 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+172 pt/round: Team Sam and Josiah(P2) "Majority Decide"
 cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 CCCCCCCCCCCCCCCCcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
-cccccccccc
-BBBBBBBBBB
+ccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBB
 
 --------------------------------------------------------------------------------
--1 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-143 pt/round: Hungary(P4) "Random chaos"
+0 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+142 pt/round: Hungary(P3) "Random chaos"
 cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
 BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
 
 CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCc
 CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCB
 
-CCcCCCc
-CCBCCCB
+CCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
+CCBCCCBCCBCCCBCCBCCCBCCBCCCBCC
 
 --------------------------------------------------------------------------------
-100 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-100 pt/round: The name the team gives to itself(P5) "The name the team gives to this strategy"
+100 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+100 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
-CCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCC
-
---------------------------------------------------------------------------------
-100 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-100 pt/round:  BubbleGuppies(P6) "The name the team gives to this strategy"
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
-10 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-138 pt/round: team buttkicker(P7) " alternate strategy"
+10 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+138 pt/round: team buttkicker(P6) " alternate strategy"
 cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
 BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
 
-cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
-BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
-
-cCCCc
-BCCCB
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCc
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCB
 
 --------------------------------------------------------------------------------
--250 pt/round: ace of spades(P9) "The name the team gives to this strategy"
-250 pt/round: Fish Friends(P8) "If our score is greater, betray however if their history is ccc return c"
+-250 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+250 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
-cccccccccccccccccccccccccccccccccccccccccccccccccc
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
 --------------------------------------------------------------------------------
-=======
-            --------------------------------------------------------------------------------
-Section 3 - Game Data for Team CatsdaBest
+100 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+100 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
 --------------------------------------------------------------------------------
->>>>>>> 51c474af51c07adbb8ca9002bb2f26f8fcb1135b
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team team buttkicker
+--------------------------------------------------------------------------------
+-250 pt/round: team buttkicker(P6) " alternate strategy"
+2 pt/round: Tofu Cracker(P0) "winning strategy"
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+bBBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+ B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+
+--------------------------------------------------------------------------------
+-212 pt/round: team buttkicker(P6) " alternate strategy"
+161 pt/round: CatsdaBest(P1) "Collude more than Betray"
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
+
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
+
+bcccbcccbcccbcccbcccbcccb
+bBBBbBBBbBBBbBBBbBBBbBBBb
+
+--------------------------------------------------------------------------------
+29 pt/round: team buttkicker(P6) " alternate strategy"
+58 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+bcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCCBcCC
+bBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCCcBCC
+
+BcCCBcCCBcCCBcCCbcccbcc
+cBCCcBCCcBCCcBCCbBBBbBB
+
+--------------------------------------------------------------------------------
+-2 pt/round: team buttkicker(P6) " alternate strategy"
+71 pt/round: Hungary(P3) "Random chaos"
+bccCBCCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCcCBcCC
+bBBCcCCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCBCcBCC
+
+bCcCBcCcBcCCBcCcBcCCbCcCBcCCbCcCBcCcBcCCBcCcBcCCbCc
+bCBCcBCBcBCCcBCBcBCCbCBCcBCCbCBCcBCBcBCCcBCBcBCCbCB
+
+--------------------------------------------------------------------------------
+137 pt/round: team buttkicker(P6) " alternate strategy"
+12 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
+
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
+
+--------------------------------------------------------------------------------
+138 pt/round: team buttkicker(P6) " alternate strategy"
+10 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
+
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCB
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCc
+
+--------------------------------------------------------------------------------
+-212 pt/round: team buttkicker(P6) " alternate strategy"
+161 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
+
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbc
+bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbB
+
+--------------------------------------------------------------------------------
+137 pt/round: team buttkicker(P6) " alternate strategy"
+11 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
+
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
+
+BCCCBCCCBC
+cCCCcCCCcC
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team Fish Friends
+--------------------------------------------------------------------------------
+-100 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+-100 pt/round: Tofu Cracker(P0) "winning strategy"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-100 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+-100 pt/round: CatsdaBest(P1) "Collude more than Betray"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-100 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+-100 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+-100 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+-100 pt/round: Hungary(P3) "Random chaos"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+--------------------------------------------------------------------------------
+250 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+-250 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+250 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+-250 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+161 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+-212 pt/round: team buttkicker(P6) " alternate strategy"
+bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBB
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbccc
+
+bBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbBBBbB
+bcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbcccbc
+
+--------------------------------------------------------------------------------
+250 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+-250 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Section 3 - Game Data for Team ace of spades
+--------------------------------------------------------------------------------
+-250 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+4 pt/round: Tofu Cracker(P0) "winning strategy"
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBB B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B 
+
+cccccccccccccccccccccc
+B B B B B B B B B B B 
+
+--------------------------------------------------------------------------------
+-250 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+250 pt/round: CatsdaBest(P1) "Collude more than Betray"
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+cc
+BB
+
+--------------------------------------------------------------------------------
+-2 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+143 pt/round: Team Sam and Josiah(P2) "Majority Decide"
+cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCcccccccccccccccccccccccccccccccccccccc
+CCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
+0 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+142 pt/round: Hungary(P3) "Random chaos"
+cCCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcC
+BCCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBC
+
+CCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCCcCCCcCC
+CCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCCBCCCBCC
+
+--------------------------------------------------------------------------------
+100 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+100 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+100 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+100 pt/round:  BubbleGuppies(P5) "The name the team gives to this strategy"
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+--------------------------------------------------------------------------------
+11 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+137 pt/round: team buttkicker(P6) " alternate strategy"
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
+
+cCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCCcCCC
+BCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCCBCCC
+
+cCCCcCCCcC
+BCCCBCCCBC
+
+--------------------------------------------------------------------------------
+-250 pt/round: ace of spades(P8) "The name the team gives to this strategy"
+250 pt/round: Fish Friends(P7) "If our score is greater, betray however if their history is ccc return c"
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+--------------------------------------------------------------------------------
