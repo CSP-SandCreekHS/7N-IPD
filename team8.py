@@ -25,9 +25,32 @@ def move(my_history, their_history, my_score, their_score):
     
     # Analyze my_history and their_history and/or my_score and their_score.
     # Decide whether to return 'c' or 'b'.
+    bcount = 0
+    ccount = 0
+    bpercent = 0
+    cpercent = 0
+    for i in their_history:
+        if i == 'b':
+            bcount =+ 1
+            bpercent = bcount / len(their_history) 
+        if i == 'c':
+            ccount += 1
+            cpercent = ccount/ len(their_history)
     
-    return 'c'
-
+    
+    if bpercent >= .5:
+          return 'b'
+    if cpercent >= .75:
+        return 'b'
+    if cpercent >= .55:
+        return 'c'    
+    if my_score > -250: 
+        return 'c'
+    elif my_score < -500:
+        return 'b'
+    
+    
+      
     
 def test_move(my_history, their_history, my_score, their_score, result):
     '''calls move(my_history, their_history, my_score, their_score)
@@ -53,7 +76,7 @@ if __name__ == '__main__':
               my_score=0,
               their_score=0,
               result='b'):
-         print 'Test passed'
+         print ('Test passed')
      # Test 2: Continue betraying if they collude despite being betrayed.
     test_move(my_history='bbb',
               their_history='ccc', 
